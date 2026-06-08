@@ -5,10 +5,7 @@ function Home() {
 
   return (
     <>
-      <Navbar />
-      <h1>Mon super portfolio (il est incroyable)</h1>
-      <p>Saucisse</p>
-      <span>normalement ce texte il est pas rouge</span>
+    <h1>Présentation</h1>
     </>
   )
 }

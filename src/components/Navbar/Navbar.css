@@ -28,12 +28,64 @@
 ul {
     list-style: none;
     display: flex;
-    gap: 30rem;
+    gap: 10rem;
     font-size: 1.5rem;
     margin: 0;
     padding: 0;
 }
 
 li:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
     color: lightgray
+}
+
+#burger-menu {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+}
+
+#burger-menu:hover {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 430px) {
+  #title h1 {
+    font-size: 3rem;
+  }
+
+  #title p {
+    font-size: 1.2rem;
+  }
+
+  ul {
+    font-size: 1rem;
+    display: none;
+  }
+
+  #burger-menu {
+    display: block;
+  }
+
+  #navbar {
+    height: 9rem;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
 }
