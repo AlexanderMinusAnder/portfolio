@@ -1,0 +1,39 @@
+#navbar {
+    background: #5acaf2;
+    background: linear-gradient(180deg, rgba(90, 202, 242, 1) 0%, rgba(58, 167, 222, 1) 51%, rgba(30, 124, 168, 1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+#title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    row-gap: 0.5rem;
+}
+
+#title h1 {
+    font-size: 5rem;
+}
+
+#title p {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+li:hover {
+    color: lightgray
+}
